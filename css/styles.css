@@ -1,3 +1,6 @@
+body{
+    background-image: url("https://i2.wp.com/files.123freevectors.com/wp-content/original/131382-abstract-grey-and-white-polygon-pattern-background-illustration.jpg?w=800&q=95");
+}
 .top-bar{
     color: #be6a15;
     float: left;
@@ -7,7 +10,7 @@
     float: left;
     text-align: center;
     font-size: 380%;
-    te
+    border-radius: 25px;
 }
 .top-bar-subtext{
     font-size: 50%;
@@ -15,4 +18,43 @@
 }
 .heading{
     font-size: larger;
+}
+.about-me{
+    border-radius: 50px;
+    background-color: #ac3f21;
+    padding:7px;
+    color: #6e3b3b;
+}
+.contact-info-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 100px;
+}
+.contact-info{
+  border-radius: 50px;
+  background-color: #6e3b3b;
+  color: #ac3f21;
+  padding: 7px;
+}
+.projects{
+    float: right;
+    width: 68%;
+    padding: 7px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    opacity: 0.8;
+}
+.projects p {
+    margin: 5%;
+   font-weight: bold;
+   color: black;
+}
+.sidebar{
+    float: left;
+    width:30%;
+}
+.sidebar-heading{
+    text-align: center;
 }
