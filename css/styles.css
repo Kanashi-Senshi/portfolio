@@ -1,8 +1,9 @@
+@font-face{
+    src: url(RobotoCondensed-Regular.ttf);
+    font-family: Opensans;
+}
 
 body {
-    font-family: secondaroundw00-boldregular;
-    font-weight: normal;
-    font-style: normal;
     height: 100%;
     background: linear-gradient(90deg, #cdcdcd 30%, white 70%);
 }
@@ -27,7 +28,8 @@ body {
     padding-top: 00px;
 }
 .sidebar-heading{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Opensans', sans-serif;
+    font-size: 400;
     border-radius: 0%;
     border-bottom: 1px solid black;
     font-weight: bold;
@@ -48,6 +50,8 @@ body {
  
 }
 .mainbar{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1000;
     float: right;
     width: 69%;
     background-color: white;
@@ -65,10 +69,42 @@ body {
     padding: 1px;
 }
 .subheading{
-    font-family: 'secondaroundw00-boldregular'
     font-weight: 500;
 }
 .projects p {
    color: black;
+   padding-top: 7px;
 }
-
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    body{
+        background-color: black;
+    }
+    .top-bar{
+        width: 100%;
+    }
+    .sidebar{
+        width: 100%;
+        border-radius: 25px;
+        clear: both;
+        position: absolute;
+    }
+    .mainbar{
+        width: 100%;
+        clear: both;
+        position: relative;
+    
+    }
+    .contact-info{
+        width: 100%;
+        position: absolute;
+        border-radius: 25px;
+        padding: 20px;
+    }
+    .about-me{
+        width: 100%;
+        clear: both;
+    }
+    .cookies{
+        width: 100%;
+    }
+}
