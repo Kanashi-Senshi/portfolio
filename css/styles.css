@@ -1,29 +1,31 @@
-body{
-    background-image: url("https://i2.wp.com/files.123freevectors.com/wp-content/original/131382-abstract-grey-and-white-polygon-pattern-background-illustration.jpg?w=800&q=95");
+body {
+    height: 100%;
+    background: linear-gradient(90deg, #cdcdcd 30%, white 70%);
 }
 .top-bar{
-    color: #be6a15;
-    float: left;
-    background-color: #f3cf7a;
-    width: 100%;
-    height: 400px;
-    float: left;
+    margin: auto;
+    color: black;
+    background-color: white;
+    width: 400px;
+    height: 100px;
     text-align: center;
-    font-size: 380%;
-    border-radius: 25px;
+    font-size: 100%;
+    border: 2px solid black;
+    padding: 30px;
+    padding-top: 20px;
 }
-.top-bar-subtext{
-    font-size: 50%;
 
+.sidebar{
+    position: absolute;
+    height: auto;
+    width:30%;
+    background-color: #cdcdcd;
+    padding-top: 00px;
 }
-.heading{
-    font-size: larger;
-}
-.about-me{
-    border-radius: 50px;
-    background-color: #ac3f21;
-    padding:7px;
-    color: #6e3b3b;
+.sidebar-heading{
+    border-radius: 0%;
+    border-bottom: 1px solid black;
+    font-weight: bold;
 }
 .contact-info-image{
     display: block;
@@ -33,28 +35,28 @@ body{
     width: 100px;
 }
 .contact-info{
-  border-radius: 50px;
-  background-color: #6e3b3b;
-  color: #ac3f21;
+  background-color: #cdcdcd;
+  color: black;
   padding: 7px;
+  position: fixed;
+  width: 27%;
+ 
 }
-.projects{
+.mainbar{
     float: right;
-    width: 68%;
-    padding: 7px;
-    background-color: whitesmoke;
-    border-radius: 50px;
-    opacity: 0.8;
+    width: 69%;
+    background-color: white;
+    padding: 2px;
 }
-.projects p {
-    margin: 5%;
-   font-weight: bold;
-   color: black;
+.about-me{
+    background-color: white;
+    padding:7px;
+    color: black;
 }
-.sidebar{
-    float: left;
-    width:30%;
+.cookies{
+    width: 100%;
 }
-.sidebar-heading{
-    text-align: center;
+.subheading{
+    font-weight: 500;
 }
+
