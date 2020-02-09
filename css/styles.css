@@ -1,4 +1,8 @@
+
 body {
+    font-family: secondaroundw00-boldregular;
+    font-weight: normal;
+    font-style: normal;
     height: 100%;
     background: linear-gradient(90deg, #cdcdcd 30%, white 70%);
 }
@@ -23,6 +27,7 @@ body {
     padding-top: 00px;
 }
 .sidebar-heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 0%;
     border-bottom: 1px solid black;
     font-weight: bold;
@@ -54,9 +59,16 @@ body {
     color: black;
 }
 .cookies{
-    width: 100%;
+    width: 49.5%;
+    height: 350px;
+    float: right;
+    padding: 1px;
 }
 .subheading{
+    font-family: 'secondaroundw00-boldregular'
     font-weight: 500;
+}
+.projects p {
+   color: black;
 }
 
