@@ -3,6 +3,8 @@
 #### By **{Michael M. Mwasha}**
 ## Description
 {This is Michael M. Mwasha's portfolio that includes an about me section, contact information and several completed projects. }
+## Link
+[Portfolio](https://kanashi-senshi.github.io/portfolio/)
 
 ## Known Bugs
 None
