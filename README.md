@@ -2,8 +2,9 @@
 #### {Michael M. Mwasha's portfolio}, {09/02/2020}
 #### By **{Michael M. Mwasha}**
 ## Description
-{This is Michael M. Mwasha's portfolio that includes an about me section, contact information and several completed projects. }
-
+This is Michael M. Mwasha's portfolio that includes an about me section, contact information and several completed projects. 
+##Live link
+[Portfolio](https://kanashi-senshi.github.io/portfolio/)
 ## Known Bugs
 None
 ## Technologies Used
